@@ -1,4 +1,4 @@
-package SeleniumChallenges.SeleniumChallenges;
+package Pages;
 
 /**
  * Hello world!

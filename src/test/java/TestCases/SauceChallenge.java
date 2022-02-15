@@ -1,7 +1,7 @@
-package SeleniumChallenges.SeleniumChallenges;
+package TestCases;
 
 import static org.testng.Assert.assertEquals;
-
+import static org.openqa.selenium.support.locators.RelativeLocator.with;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -39,7 +39,7 @@ public class SauceChallenge {
 		
 		driver.findElement(By.xpath(xpath)).click();
 		assertEquals(driver.findElement(By.xpath("//span[@class='shopping_cart_badge']")).getText(), "1");
-		
+		//WebElement email = driver.findElement(with(By.xpath(xpath)).toRightOf(ele);
 		driver.quit();
 
 	}
